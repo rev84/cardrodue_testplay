@@ -85,6 +85,13 @@ body {
 canvas {
   background-color: rgba(0, 0, 0, 0);
 }
+
+#commit_id {
+  -moz-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  -khtml-user-select: text;
+}
 </style>
 </head>
 <body>
@@ -92,5 +99,5 @@ canvas {
 <canvas id="gameCanvas" width="480" height="720"></canvas>
 
 <script cocos src="game.min.js"></script>
-</body>
+<span id="commit_id" style="position:fixed; background-color:aliceblue;">Version: d7568d98fe2d7a571a931073890a7e183aafb9b5</span></body>
 </html>
